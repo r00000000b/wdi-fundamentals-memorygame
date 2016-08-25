@@ -1,0 +1,73 @@
+H2 {
+	color: rgb(2,132,130);
+}
+H3 {
+	color: #ffd700;
+}
+
+H2, H3 {
+	text-align: center;
+	width: 50%;
+}
+
+p {
+	color:gold;
+	text-align: center;
+	width: 50%;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	background: #808080;
+}
+
+nav a {
+	background: #ffbf00;
+	text-decoration: none;
+	color: white;
+	padding: 35px;
+	display: inline-block;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #ee5f3c;
+}
+
+      .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+.board {
+height: 80%;
+width: 50%;
+}
+
+.cards {
+height: 200px;
+width: 150px;
+display: inline-block;
+background-color: yellow;
+border-radius: 10px;
+float: left;
+margin: 8%;
+}
+
+.name {
+	color: #ff0000;
+}
+
+footer {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #808080;
+}
